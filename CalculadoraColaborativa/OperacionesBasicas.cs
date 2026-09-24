@@ -5,6 +5,7 @@ namespace CalculadoraColaborativa
         public static double Sumar(double a, double b)
         {
             System.Console.WriteLine($"[LOG A] Ejecutando suma de {a} y {b}");
+            System.Console.WriteLine($"[CALCULADORA] Resultado = {a + b}");
             return a + b;
         }
 
